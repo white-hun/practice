@@ -2,19 +2,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px 10px;
+  margin: 30px 10px 10px 0px;
+  color: white;
 }
 .screen-header__icon {
-  background-color: blue;
+  color: white;
+  /* background-color: #12172b; */
   width: 40px;
   height: 40px;
-  border: 2px solid skyblue;
+  border: 2px solid transparent;
   border-radius: 50%;
+  background-image: linear-gradient(#12172b, #12172b),
+    linear-gradient(140deg, #222954, #303659, #797eab, #afb3d6);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
   display: flex;
+  border-image-slice: 1;
   justify-content: center;
   align-items: center;
 }
 .screen-header__title {
   font-size: 30px;
   font-weight: 600;
+  font-size: 40px;
 }
