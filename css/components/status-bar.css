@@ -1,0 +1,20 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+.screen-header__icon {
+  background-color: blue;
+  width: 40px;
+  height: 40px;
+  border: 2px solid skyblue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.screen-header__title {
+  font-size: 30px;
+  font-weight: 600;
+}
