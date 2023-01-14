@@ -1,0 +1,19 @@
+.main-screen__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+.main-screen__title {
+  padding: 20px 0;
+}
+@keyframes imgscale {
+  from {
+    transform: 0;
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+.main-screen__img:hover {
+  animation: imgscale 0.5s ease-in-out forwards;
+}
