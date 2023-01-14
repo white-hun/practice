@@ -10,11 +10,23 @@
 /* screen */
 @import "screen/main-screen.css";
 
-.body {
+body {
   font-family: "Sofia Sans Semi Condensed", sans-serif;
   height: 200vh;
   margin: 0 20px;
+  background-color: #12172b;
+}
+.background {
+  width: 200vw;
+  height: 200vh;
+  background-image: url("/wed2.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: -1;
+  filter: blur(20px);
 }
 .main-screen {
   padding: 20px;
+  margin: 0 20px;
 }

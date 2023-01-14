@@ -2,6 +2,7 @@
   width: 200px;
   height: 200px;
   border-radius: 20px;
+  z-index: 999;
 }
 .main-screen__title {
   padding: 20px 0;
